@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="EventProject.Views.RegisterPage">
+    <ContentPage.Content>
+
+        <StackLayout>
+            <Label Text="Your Journey Starts Here"></Label>
+
+            <Label Text="First Name"/>
+            <Entry Placeholder="Enter Your First Name"/>
+
+            
+            <Label Text="Last Name"/>
+            <Entry Placeholder="Enter Your Last Name"/>
+
+            
+            <Label Text="User Name"/>
+            <Entry Placeholder="Enter a Unique Username"/>
+
+            <Label Text="Password"/>
+            <Entry Placeholder="Enter Password"/>
+
+            <Label Text="Confirm Password"/>
+            <Entry Placeholder="Confirm Password"/>
+
+            <Label Text="Date of Birth"/>
+            <DatePicker />
+
+            <Label Text="Gender"/>
+            <StackLayout RadioButtonGroup.GroupName="gender" x:Name="genderStack">
+                <RadioButton Content="Male"/>
+                <RadioButton Content="Female"/>
+            </StackLayout>
+
+            <Button Text="Sign Up" Clicked="Register_New"></Button>
+
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
+

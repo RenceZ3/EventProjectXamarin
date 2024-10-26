@@ -5,7 +5,6 @@
 /Users/clarence/Projects/EventProject/EventProject/EventProject/obj/Debug/netstandard2.0/EventProject.csproj.AssemblyReference.cache
 /Users/clarence/Projects/EventProject/EventProject/EventProject/obj/Debug/netstandard2.0/EventProject.GeneratedMSBuildEditorConfig.editorconfig
 /Users/clarence/Projects/EventProject/EventProject/EventProject/obj/Debug/netstandard2.0/App.xaml.g.cs
-/Users/clarence/Projects/EventProject/EventProject/EventProject/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
 /Users/clarence/Projects/EventProject/EventProject/EventProject/obj/Debug/netstandard2.0/EventProject.AssemblyInfoInputs.cache
 /Users/clarence/Projects/EventProject/EventProject/EventProject/obj/Debug/netstandard2.0/EventProject.AssemblyInfo.cs
 /Users/clarence/Projects/EventProject/EventProject/EventProject/obj/Debug/netstandard2.0/EventProject.csproj.CoreCompileInputs.cache
@@ -13,3 +12,7 @@
 /Users/clarence/Projects/EventProject/EventProject/EventProject/obj/Debug/netstandard2.0/EventProject.dll
 /Users/clarence/Projects/EventProject/EventProject/EventProject/obj/Debug/netstandard2.0/refint/EventProject.dll
 /Users/clarence/Projects/EventProject/EventProject/EventProject/obj/Debug/netstandard2.0/EventProject.pdb
+/Users/clarence/Projects/EventProject/EventProject/EventProject/obj/Debug/netstandard2.0/LoginPage.xaml.g.cs
+/Users/clarence/Projects/EventProject/EventProject/EventProject/obj/Debug/netstandard2.0/Views/HomePage.xaml.g.cs
+/Users/clarence/Projects/EventProject/EventProject/EventProject/obj/Debug/netstandard2.0/resources/styles.css.g.cs
+/Users/clarence/Projects/EventProject/EventProject/EventProject/obj/Debug/netstandard2.0/Views/RegisterPage.xaml.g.cs

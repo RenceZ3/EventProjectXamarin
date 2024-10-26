@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EventProject.MainPage">
+
+    <ContentPage.Resources>
+        <StyleSheet Source="resources/styles.css"/>
+    </ContentPage.Resources>
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#254336" Offset="0.39" />
+            <GradientStop Color="#6B8A7A" Offset="0.78" />
+            <GradientStop Color="#B7B597" Offset="1" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <Frame Padding="20" Margin="40" HasShadow="True" CornerRadius="20" StyleClass="frameContainer" x:Name="frameContainer">
+
+      <StackLayout Padding="20">
+
+            <Image Source="AGAYLATAN.png" HeightRequest="200" WidthRequest="200"
+                   HorizontalOptions="Center" Margin="0, 10, 0 ,0"/>
+
+            <Label Text="Login Form" HorizontalOptions="Center" FontSize="30"/>
+
+            <Label Text="Username" Margin="20, 40, 0, 10"/>
+            <Entry Placeholder="Enter your username" Margin="20, 0, 20, 20" x:Name="username"/>
+            <Label Text="Password" Margin="20, 0, 20, 20"/>
+            <Entry Placeholder="Enter your password"
+                   Margin="20, 0, 20, 20" IsPassword="True" x:Name="password" x:DataType="x:String"/>
+
+            <Button Text="Login" Margin="20, 0, 20, 10" BackgroundColor="#254336"
+                    CornerRadius="10" Clicked="Login_Clicked" TextColor="#DAD3BE"/>
+            <Label Text="Become an explorer" HorizontalTextAlignment="Center" x:Name="register">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Register_User"/>
+
+                </Label.GestureRecognizers>
+
+            </Label>
+        </StackLayout>
+    </Frame>
+
+
+</ContentPage>
+

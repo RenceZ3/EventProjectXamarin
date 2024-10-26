@@ -4,5 +4,16 @@
              x:Class="EventProject.App">
     <Application.Resources>
 
+        <StyleSheet Source="resources/styles.css"></StyleSheet>
+
+
+        <ResourceDictionary>
+            <Style x:Key="LblStyle" TargetType="Label">
+                <Setter Property="FontFamily" Value=""/>
+
+            </Style>
+
+        </ResourceDictionary>
+
     </Application.Resources>
 </Application>
